@@ -1,0 +1,31 @@
+.item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s ease;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .item-name {
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .item-price-new {
+    color: #e91e63;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
